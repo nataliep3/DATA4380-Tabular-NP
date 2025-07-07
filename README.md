@@ -38,13 +38,12 @@ The task, as defined by the Kaggle challenge is to use a dataset with Spotify tr
 
 ### Training
 
-* Describe the training:
-  * Software: I trained the model using Python within a Jupyter Notebook environment. Libraries used include:
-    * pandas and numpy to manipulate data
-    * sci-kit learn to build models
-    * matplotlib to create visualizations
-  * Hardware: All training and testing was done on a personal device (Macbook Air)
-  * Difficulties include working with a dataset with many unique identifiers and determining which were useful, alongside hardware issues and inability to run models on my device
+* Software: I trained the model using Python within a Jupyter Notebook environment. Libraries used include:
+  * pandas and numpy to manipulate data
+  * sci-kit learn to build models
+  * matplotlib to create visualizations
+* Hardware: All training and testing was done on a personal device (Macbook Air)
+* Difficulties include working with a dataset with many unique identifiers and determining which were useful, alongside hardware issues and inability to run models on my device
 
 ### Performance Comparison
 

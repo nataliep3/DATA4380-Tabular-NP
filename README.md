@@ -23,23 +23,28 @@ The task, as defined by the Kaggle challenge is to use a dataset with Spotify tr
 
 #### Data Visualization
 
+![](feature_histograms.png)
 
 ### Problem Formulation
 
 * Define:
-  * Input / Output
+  * Input: Features in dataset
+  * Output Track popularity prediction
   * Models
-    * Describe the different models you tried and why.
-  * Loss, Optimizer, other Hyperparameters.
+    * Linear regression: To establish a baseline set of evaluation metrics
+    * Polynomial regression: To build on baseline metrics using a more complex model, with the goal of finding more complex relationships between features
+    * Decision Tree: Attempted to compare against baseline and determine which model to move forward with
+  * I attempted to adjust the degree hyperparameter, but was unsucessful in running the model
 
 ### Training
 
 * Describe the training:
-  * How you trained: software and hardware.
-  * How did training take.
-  * Training curves (loss vs epoch for test/train).
-  * How did you decide to stop training.
-  * Any difficulties? How did you resolve them?
+  * Software: I trained the model using Python within a Jupyter Notebook environment. Libraries used include:
+    * pandas and numpy to manipulate data
+    * sci-kit learn to build models
+    * matplotlib to create visualizations
+  * Hardware: All training and testing was done on a personal device (Macbook Air)
+  * Difficulties include working with a dataset with many unique identifiers and determining which were useful, alongside hardware issues and inability to run models on my device
 
 ### Performance Comparison
 

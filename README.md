@@ -49,6 +49,8 @@ The task, as defined by the Kaggle challenge is to use a dataset with Spotify tr
 
 * Key performance metrics: R^2 and MSE
 
+![](model_metrics_table.png) 
+
 ### Conclusions
 
 * State any conclusions you can infer from your work. Example: LSTM work better than GRU.

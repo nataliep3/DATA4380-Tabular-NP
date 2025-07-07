@@ -29,7 +29,7 @@ The task, as defined by the Kaggle challenge is to use a dataset with Spotify tr
 
 * Define:
   * Input: Features in dataset
-  * Output Track popularity prediction
+  * Output: Track popularity prediction
   * Models
     * Linear regression: To establish a baseline set of evaluation metrics
     * Polynomial regression: To build on baseline metrics using a more complex model, with the goal of finding more complex relationships between features
@@ -57,7 +57,7 @@ I think this work leaves a lot to be desired. I feel that my results are okay, a
 
 ### Future Work
 
-I would like to try to replicate the same polynomial on a device that could handle running the model. I am also interested in focusing on predicting popularity of a song based artists, such as using the average popularity of their music and predicting what features affect this popularity based on the artist.
+I would like to try to replicate the same polynomial regression model on a device that could handle running the model. I am also interested in focusing on predicting popularity of a song based artists, such as using the average popularity of their music and predicting what features affect this popularity based on the artist.
 
 ### Overview of files in repository
 

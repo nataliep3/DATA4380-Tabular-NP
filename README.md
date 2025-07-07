@@ -47,9 +47,7 @@ The task, as defined by the Kaggle challenge is to use a dataset with Spotify tr
 
 ### Performance Comparison
 
-* Clearly define the key performance metric(s).
-* Show/compare results in one table.
-* Show one (or few) visualization(s) of results, for example ROC curves.
+* Key performance metrics: R^2 and MSE
 
 ### Conclusions
 
@@ -84,33 +82,3 @@ The task, as defined by the Kaggle challenge is to use a dataset with Spotify tr
   * inference.ipynb: loads a trained model and applies it to test data to create kaggle submission.
 
 * Note that all of these notebooks should contain enough text for someone to understand what is happening.
-
-### Software Setup
-* List all of the required packages.
-* If not standard, provide or point to instruction for installing the packages.
-* Describe how to install your package.
-
-### Data
-
-* Point to where they can download the data.
-* Lead them through preprocessing steps, if necessary.
-
-### Training
-
-* Describe how to train the model
-
-#### Performance Evaluation
-
-* Describe how to run the performance evaluation.
-
-
-## Citations
-
-* Provide any references.
-
-
-
-
-
-
-

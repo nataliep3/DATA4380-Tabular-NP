@@ -53,34 +53,15 @@ The task, as defined by the Kaggle challenge is to use a dataset with Spotify tr
 
 ### Conclusions
 
-* State any conclusions you can infer from your work. Example: LSTM work better than GRU.
+I think this work leaves a lot to be desired. I feel that my results are okay, and the MSE is clearly affected by the choice of model, but I wasn't able to effectively adjust my hyperparameters in a way that could build on the model instead of building on the data.
 
 ### Future Work
 
-* What would be the next thing that you would try.
-* What are some other studies that can be done starting from here.
-
-## How to reproduce results
-
-* In this section, provide instructions at least one of the following:
-   * Reproduce your results fully, including training.
-   * Apply this package to other data. For example, how to use the model you trained.
-   * Use this package to perform their own study.
-* Also describe what resources to use for this package, if appropirate. For example, point them to Collab and TPUs.
+I would like to try to replicate the same polynomial on a device that could handle running the model. I am also interested in focusing on predicting popularity of a song based artists, such as using the average popularity of their music and predicting what features affect this popularity based on the artist.
 
 ### Overview of files in repository
 
-* Describe the directory structure, if any.
-* List all relavent files and describe their role in the package.
-* An example:
-  * utils.py: various functions that are used in cleaning and visualizing data.
-  * preprocess.ipynb: Takes input data in CSV and writes out data frame after cleanup.
-  * visualization.ipynb: Creates various visualizations of the data.
-  * models.py: Contains functions that build the various models.
-  * training-model-1.ipynb: Trains the first model and saves model during training.
-  * training-model-2.ipynb: Trains the second model and saves model during training.
-  * training-model-3.ipynb: Trains the third model and saves model during training.
-  * performance.ipynb: loads multiple trained models and compares results.
-  * inference.ipynb: loads a trained model and applies it to test data to create kaggle submission.
-
-* Note that all of these notebooks should contain enough text for someone to understand what is happening.
+* File descriptions:
+  * initial_eda_cleaning.ipynb: Initializes CSV file, handles appropriate cleaning, establishes baseline visualizations, and saves a cleaned version of the file
+  * first_models.ipynb: Tests three different models to establish a baseline, and determine model to move forward with
+  * model_development: Takes the polynomial regression model and builds on it, with each iteration labeled and visualized (when possible)

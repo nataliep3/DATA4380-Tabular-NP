@@ -6,7 +6,6 @@ This repository outlines my attempt to use track features to predict track popul
 
 ## Overview
 
-* This section could contain a short paragraph which include the following:
 The task, as defined by the Kaggle challenge is to use a dataset with Spotify track information containing 21 features, to predict the popularity of each track. The approach in this repository follows a polynomial regression model and a few iterations of this model with feature adjustments. This model achieved a mean-squared error (MSE) score of 341 after 5 attempts, which is higher than the best performance on Kaggle of 227 using XGBoost models.
 
 ## Summary of Workdone
@@ -24,7 +23,6 @@ The task, as defined by the Kaggle challenge is to use a dataset with Spotify tr
 
 #### Data Visualization
 
-Show a few visualization of the data and say a few words about what you see.
 
 ### Problem Formulation
 
